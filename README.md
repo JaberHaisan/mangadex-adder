@@ -1,5 +1,6 @@
 # mangadex-adder
 Helps transfer one's manga list from a different site to mangadex.
+
 Instructions:
 1) Enter the names of the mangas
 2) When you are done enter q to finish 
