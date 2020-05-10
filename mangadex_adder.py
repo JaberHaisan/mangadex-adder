@@ -1,6 +1,6 @@
 # mangadex_adder.py - Helps in adding manga to mangadex by taking manga names
-# in one go and then opening tabs for each in mangadex search in your default
-# browser.
+# in one go and then opening tabs for each in mangadex search 15 at a time 
+# in your default browser.
 
 import webbrowser, re, time
 
