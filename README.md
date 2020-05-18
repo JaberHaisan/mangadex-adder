@@ -1,6 +1,4 @@
 # mangadex-mass-searcher
-Helps transfer one's manga list from a different site to mangadex.
-
 This script helps reduce the time needed to transfer a large number of manga (from your manga lists in a different website for example) to Mangadex.
 
 In the normal way you have to open mangadex search, enter the name of a manga, add it to your list and then continue in this manner for all of your mangas but this is a bit inefficient and extremely boring. By using this script you can simply enter the names of the mangas in your list in one go and it will open tabs for each of them in mangadex search which will help you save some time.
