@@ -1,6 +1,6 @@
-# mangadex_mass_searcher.py - Helps in adding manga to mangadex by taking manga names
+# mangadex_adder.py - Helps in adding manga to mangadex by taking manga names
 # in one go and then opening tabs for each in mangadex search in your default
-# browser. Also keeps a record of each search in a text file.
+# browser.
 
 import webbrowser, re, time
 
@@ -25,6 +25,7 @@ while True:
 		continue
 	manga_list.append(manga_name)
 
+# Saves search history in a text file.
 with open("Search History.txt", 'a') as f_obj:
 	f_obj.write(time.asctime())
 	f_obj.write('\n')
@@ -56,16 +57,16 @@ while n < len(manga_list):
 	n += 15
 	
 	if n < len(manga_list):
-		print("\nOpening next tabs after:")
-		
-		z = 100
-		interval = 5
-		while z != -interval:
-			print(z)
+		t = 100
+		interval = 1
+		while t != -interval:
+			z = "Time Left for opening next tabs: " + str(t).rjust(3)
+			print(z, end="")
+			print("\b" * len(z), end="",flush=True)
 			time.sleep(interval)
-			z -= interval
+			t -= interval
+			
 		print()
 		
 	else:
 		print("\nTask Completed.")
-
