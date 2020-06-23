@@ -1,6 +1,6 @@
 # mangadex_mass_searcher.py - Helps in adding manga to mangadex by taking manga names
 # in one go and then opening tabs for each in mangadex search in your default
-# browser. Also keeps a record of each search in a text file.
+# browser. Also keeps a record of searches in a text file.
 
 import webbrowser, re, time
 
