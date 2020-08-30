@@ -5,7 +5,7 @@ In the normal way you have to open mangadex search, enter the name of a manga, a
 
 This python script in the first step takes the names of the manga from the user and then opens tabs in the mangadex search page for all of them 15 at a time. It doesn't open tabs for all of them at the same time because Mangadex soft bans the IP address of anyone who opens about 20 tabs simultaneously for an hour (this acts as a defense against DDos attacks). This script also saves your search history in a text file.
 
-Make sure you are logged in your mangadex account in your default browser before running the script or else you'll have to refresh all the pages after running the script and logging in for adding manga to your lists in your mangadex account. Also you don't need to enter the full name of the manga, simply writing a small unique snippet is enough.
+Make sure you are logged in your mangadex account in your default browser before running the script or else you'll have to refresh all the pages after running the script and logging in for adding manga to your lists in your mangadex account. Also you don't need to enter the full name of the manga, simply entering a small unique snippet of the name is enough.
 
 Instructions:
 1) Enter the names of the mangas.
